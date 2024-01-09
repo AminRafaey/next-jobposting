@@ -52,6 +52,7 @@ export default function Home() {
       console.error(error);
     }
   };
+   
   const getStatus = async () => {
     try {
       const response = await axios.get("/api/getStatus");
